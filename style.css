@@ -1,0 +1,57 @@
+h1 {
+    text-align: center;
+}
+.calculator {
+    margin: auto;
+    background-color: #3373a7;
+    width: 500px;
+    height: 600px;
+    border-radius: 30px;
+    
+}
+
+.screen {
+    position: relative;
+    top: 10px;
+    background-color: #dcf1fb;
+    text-align: right;
+    margin: auto;
+    width: 400px;
+    height: 70px;
+    font-size: 50px;
+    border-radius: 20px;
+}
+
+.buttoncontainer {
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.button {
+    display: inline;
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+}
+
+.botton:active {
+    background-color: white;
+}
+
+.extra {
+    background-color: darkgrey;
+}
+
+.number {
+    background-color: grey;
+}
+
+.operation {
+    background-color: coral;
+}
+
+#equal {
+    width: 200px;
+}
