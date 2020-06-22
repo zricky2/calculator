@@ -167,7 +167,7 @@ zero.addEventListener("click", e => {
 })
 
 decimal.addEventListener("click", e => {
-    if (para.innerHTML.search(".") != -1) {
+    if (para.innerHTML.search(".") == -1) {
         para.innerHTML += ".";
     }
 })
